@@ -28,6 +28,7 @@ class AboutTrueAndFalse < EdgeCase::Koan
     assert_equal :true_stuff, truth_value({})
     assert_equal :true_stuff, truth_value("Strings")
     assert_equal :true_stuff, truth_value("")
+# other than false and nil, everything else is true
   end
 
 end
